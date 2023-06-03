@@ -7,11 +7,11 @@
           "moniker": "Nodes.Guru",
           "identity": "28B672FCE6BBD562",
           "website": "https://stake.nodes.guru",
-          "security_contact": "info@nodes.guru",
+          "security_contact": "security@nodes.guru",
           "details": "Guru of non-custodial staking. Professional node running, low fees, best uptime and 24/7 customer support."
         },
         "commission": {
-          "rate": "0.100000000000000000",
+          "rate": "0.050000000000000000",
           "max_rate": "0.100000000000000000",
           "max_change_rate": "0.050000000000000000"
         },
@@ -24,7 +24,7 @@
         },
         "value": {
           "denom": "aarch",
-          "amount": "9900000000000000000"
+          "amount": "9000000000000000000"
         }
       }
     ],
@@ -49,13 +49,18 @@
       }
     ],
     "fee": {
-      "amount": [],
+      "amount": [
+        {
+          "denom": "aarch",
+          "amount": "180000000000000000"
+        }
+      ],
       "gas_limit": "200000",
       "payer": "",
       "granter": ""
     }
   },
   "signatures": [
-    "FeJxNZEQUdFp64Ou1m2BrRXjI4JszBZ0wde2ZNDEo40RpqADC8PVljlp4deIReWWkgXENZrromvGTbBU2LsdQA=="
+    "Nk5TZkgEpk2lDV+3JQy+Uur4oMEiX2ykKnlbaQE2gg4KDXviUYqSnMaC47sBLJ/2fKjeRlWnFEgEJN5xiquWBQ=="
   ]
 }
